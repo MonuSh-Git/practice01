@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            text-align: center;
+        }
+        .frame {
+            flex: 1;
+            padding: 10px;
+            height: 300px;
+            text-align: center;
+        }
+        body h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Webpage with Three Frames</h1>
+    <div class="container">
+        <div class="frame">
+            <h2>Image Frame</h2>
+            <img src="2731786.jpg" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+
+        <div class="frame">
+            <h2>Video Frame</h2>
+            <video controls style="width:100%; height:100%;">
+                <source src="Dragon Ball Z Kai Opening.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="frame">
+            <h2>Audio Frame</h2>
+            <audio controls style="width:100%;">
+                <source src="Ultra Instinct Theme.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
